@@ -18,3 +18,55 @@ code {
   margin: 0 auto;
   padding: 2rem;
 }
+
+
+.button {
+  background-color: black;
+  padding: 6px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: rgb(89, 77, 77);
+}
+
+img{
+  width: 145px;
+  height: 165px;
+}
+
+nav{
+  display: flex;
+  margin-left: 25px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+nav ul{
+  display: flex;
+  margin-top: 30px;
+  text-decoration: none;
+  list-style: none;
+}
+
+nav li {
+  margin-left: 80px;
+}
+
+.btn-buscar {
+  margin-left: 2px;
+  height: 30px;
+}
+
+nav img{
+  height: 100px;
+}
+
+.carousel img{
+  height: 350px;
+}
+
+body{
+  background-color: rgb(218, 217, 217);
+}
