@@ -70,3 +70,72 @@ nav img{
 body{
   background-color: rgb(218, 217, 217);
 }
+
+.body{
+  background-color: rgb(247, 240, 240);
+  padding: 30px;
+  border-radius: 10px;
+  height: 80%;
+}
+
+.img-product{
+  width: 95%;
+  height: 305px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.articlesect h4{
+  display: flex;
+}
+
+.articlesect{
+  display: flex;
+}
+
+
+.desc-product {
+  font-size:small;
+  margin-top: 32px;
+  margin-left: 20px;
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.title-product{
+  font-size: 30px;
+  text-align: center;
+}
+
+.brand-product{
+  margin-left: 40px;
+  font-size: 25px;
+}
+
+.date-product{
+  margin-left: 350px;
+}
+
+hr{
+  color: rgb(152, 151, 151);
+  margin-left: 20px;
+  width: 690px;
+}
+
+.btn-car {
+  margin-left: 550px;
+}
+
+.sect-datos{
+  margin-top: 25px;
+}
+
+.star{
+  color: rgb(241, 178, 20);
+}
+
+.star-section{
+  margin-left: 20px;
+}
+
