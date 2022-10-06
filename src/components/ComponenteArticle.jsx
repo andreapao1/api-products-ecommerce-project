@@ -3,9 +3,10 @@
 import React, { useEffect } from "react";
 import { useState } from "react";
 import { viewArticles } from "../funciones/funciones";
+import SearchComponent from "../funciones/SearchComponent";
 
 const Article = () => {
-    const [articles, setArticles] = useState([]);
+    const [results, setArticles] = useState([]);
 
 
     useEffect(() => {
@@ -16,12 +17,13 @@ const Article = () => {
         setArticles(e.target.value)
         console.log(e.target.value)
     }
+    
 
     
     return (
         <div className="row">
-            {articles == null ? ("no hay articulos") :
-                articles.map(articulo => (
+            {results == null ? ("no hay articulos") :
+                results.map(articulo => (
                     <div key={articulo._id} className="col product-things">
                         <div className="card">
                         <img className="img-oneproduct" src={articulo.image} alt="" />
