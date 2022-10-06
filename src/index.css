@@ -25,6 +25,7 @@ code {
   padding: 6px;
   border-radius: 5px;
   text-decoration: none;
+  width: 150px;
 }
 
 .button:hover {
@@ -137,5 +138,31 @@ hr{
 
 .star-section{
   margin-left: 20px;
+}
+
+.img-oneproduct{
+  width: 233px;
+}
+
+.product-things{
+  margin-bottom: 25px;
+  border-radius: 8px;
+}
+
+.product-things img{
+  border-radius: 5px;
+  height: 230px;
+}
+
+.product-things h3{
+  font-size: 18px;
+  text-align: center;
+  margin-top: 9px;
+}
+
+.price-sect{
+  text-align: end;
+  margin-right: 15px;
+  margin-bottom: 12px;
 }
 
