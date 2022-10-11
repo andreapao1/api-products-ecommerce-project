@@ -8,7 +8,7 @@ function NavComponent({ searchFunction }) {
 			<ul>
 				<li><a>Sucursales</a></li>
 				<li><input name='search' onChange={searchFunction} type="text" placeholder="Buscar producto" className="form-control"/></li>
-				<button className="btn-buscar">Buscar</button>
+				{/* <button className="btn-buscar">Buscar</button> */}
 				<li><a>Devoluciones - Quejas - Pedidos</a></li>
 				<li><a>Iniciar Sesión / Registrarse</a></li>
 			</ul>
