@@ -1,6 +1,6 @@
 {
   "name": "react-project",
-  "homepages": "https://andreapao1.github.io/api-products-ecommerce-project",
+  "homepage": "https://andreapao1.github.io/api-products-ecommerce-project/build",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
