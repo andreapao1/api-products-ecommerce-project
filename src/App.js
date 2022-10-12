@@ -1,6 +1,6 @@
 // import React, {useState} from 'react';
 /* eslint-disable react/react-in-jsx-scope */
-import { HashRouter , Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Inicio from "./components/ComponenteArticle";
 import Article from "./components/ComponenteFuncion";
 // eslint-disable-next-line no-unused-vars
@@ -14,12 +14,12 @@ function App() {
 	return (
 		<div className="contenedor">
 			{/* <NavComponent searchFunction={"searchFunction"}/> */}
-			<HashRouter >
+			<BrowserRouter>
 				<Routes>
 					<Route path='/' element={<Inicio></Inicio>}></Route>
 					<Route path='/articulo/:_id' element={<Article></Article>}></Route>
 				</Routes>
-			</HashRouter >
+			</BrowserRouter>
 		</div> 
 	); 
 }
